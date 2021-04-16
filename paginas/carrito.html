@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css//bootstrap.min.css">
+	<link rel="stylesheet" href="../css//index.css">
+	<link rel="icon" href="../imagenes/logo.png">
+	<title>Wendy's Market </title>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="../imagenes/logo.png" width="30" height="30" alt="">
+				Wendy's Market</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="./lacteosyhuevos.html">Productos
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="./carrito.html">Carrito
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./contact.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Page Content -->
+	<div class="container">
+
+		<!-- Page Heading/Breadcrumbs -->
+		<h1 class="mt-4 mb-3">Carrito de compras
+			<small>Wendy's Market</small>
+		</h1>
+
+		<!-- Content Row -->
+		<div class="row">
+			<!-- Map Column -->
+			<div class="col-lg-10 mb-9">
+				<!-- Embedded Google Map -->
+				<div id="divCarrito"></div>
+			</div>
+			<!-- Contact Details Column -->
+			<div class="col-lg-2 mb-3">
+				<button class='btn btn-danger' id="btnPagar">Pagar</button>
+			</div>
+		</div>
+		<!-- /.row -->
+
+		<div class="row">
+
+
+		</div>
+
+	</div>
+	<!-- /.container -->
+
+
+	<!-- Footer -->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Copyright &copy; Wendy's Market 2020</p>
+		</div>
+	</footer>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="../js/app.js"></script>
+	<script src="../js/productos.js"></script>
+	<script>
+		$('.carousel').carousel();
+	</script>
+</body>
+
+</html>
